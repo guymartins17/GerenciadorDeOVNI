@@ -152,7 +152,7 @@ namespace BibliotecaOVNI
                 return false;
             }
         }
-        public bool RetornarAoPlanetaDeOrigem()
+        public bool RetornarAoPlanetaDeOrigem(string text)
         {
             // Retornar true apenas se o OVNI não estiver no planeta de origem:
             if(_planetaAtual == _planetaOrigem)
